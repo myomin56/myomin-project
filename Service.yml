@@ -32,5 +32,5 @@ spec: #specifications for our object
     targetPort: 1880
     nodePort: 30001
     protocol: TCP
-  selector: #Label selector used to identify pods
+  selector: #Label selector used to identify pods 
     app: php
