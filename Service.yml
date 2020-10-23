@@ -18,7 +18,7 @@ spec: #specifications for our object
       - name: nginx-container #the name of the container within the pod
         image: nodered/node-red #which container image should be pulled
         ports:
-        - containerPort: 80 #the port of the container within the pod
+        - containerPort: 1880 #the port of the container within the pod
 ---
 apiVersion: v1 #version of the API to use
 kind: Service #What kind of object we're deploying
