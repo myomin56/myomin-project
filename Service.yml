@@ -16,7 +16,7 @@ spec: #specifications for our object
     spec:
       containers:
       - name: nginx-container #the name of the container within the pod
-        image: nodered/node-red #which container image should be pulled
+        image: yenaing/ubuntu_nodered #which container image should be pulled
         ports:
         - containerPort: 1880 #the port of the container within the pod
 ---
