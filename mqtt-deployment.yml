@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mqtt
+  name: project-mqtt
   labels:
-    app: mqtt
+    app: php
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mqtt
+      app: php
   template:
     metadata:
       labels:
