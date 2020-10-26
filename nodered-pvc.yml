@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   # any PVC name
-  name: nodered-pvc
+  name: project-nodered-pvc
 spec:
   storageClassName: nodered001
   accessModes:
