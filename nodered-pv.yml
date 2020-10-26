@@ -4,7 +4,7 @@ metadata:
   # any PV name
   name: nodered-pv
 spec:
-  storageClassName: nodered001
+  storageClassName: nodered01
   capacity:
     # storage size
     storage: 10Gi
