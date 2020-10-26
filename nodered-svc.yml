@@ -30,7 +30,7 @@ spec: #specifications for our object
   - name: http
     port: 1880
     targetPort: 1880
-    nodePort: 30002
+    nodePort: 30001
     protocol: TCP
   selector: #Label selector used to identify pods 
     app: php
