@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mqtt-service
+  name: project-mqtt-service
   labels:
-    app: mqtt
+    app: php
 spec:
   type: NodePort
   ports:
@@ -13,4 +13,4 @@ spec:
     port: 80
     targetPort: 9001
   selector:
-    app: mqtt
+    app: php
