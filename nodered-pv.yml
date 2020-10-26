@@ -9,7 +9,7 @@ spec:
     # storage size
     storage: 10Gi
   accessModes:
-    # ReadWriteMany(RW from multi nodes), ReadWriteOnce(RW from a node), ReadOnlyMany(R from multi nodes)
+    # ReadWriteMany(RW from multi nodes), ReadWriteOnce(RW from a node), ReadOnlyMany(R from multi nodes) 
     - ReadWriteMany
   persistentVolumeReclaimPolicy:
     # retain even if pods terminate
