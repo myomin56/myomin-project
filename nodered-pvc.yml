@@ -4,7 +4,7 @@ metadata:
   # any PVC name
   name: project-nodered-pvc
 spec:
-  storageClassName: nodered001
+  storageClassName: mm001
   accessModes:
   # ReadWriteMany(RW from multi nodes), ReadWriteOnce(RW from a node), ReadOnlyMany(R from multi nodes)
     - ReadWriteMany
