@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodered
-        image: yenaing/ubuntu_nodered 
+        image: yenaing/ubuntu_nodered  
         ports:
         - containerPort: 1880
         securityContext:
