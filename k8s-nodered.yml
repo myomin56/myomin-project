@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nodered-app
+  name: myomin-nodered-app
   labels:
     app: nodered
 spec:
