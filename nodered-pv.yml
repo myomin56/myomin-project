@@ -2,9 +2,9 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   # any PV name
-  name: project01-nodered-pv
+  name: last-nodered-pv
 spec:
-  storageClassName: mm001
+  storageClassName: last001
   capacity:
     # storage size
     storage: 10Gi
